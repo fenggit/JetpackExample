@@ -1,0 +1,178 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/bc3d117cfb57b06b59e57520ef851785/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:lifecycle] /Users/hefeng959/git2/JetpackExample/lifecycle/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/94cb645827b0b055764892b8eaef6cd9/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/e3d4023ec0148c0ada961f591f0c8aeb/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/3adff72175aa8aa49a0aaf04a08e9c1a/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a005267a73562a210dc4de035a8ebfe6/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a71c3d269894c2d72471ee384ec9b216/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/d13da0d6680951854c92b5b713942730/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ffc81f48a11af6737f607ddd9af4b3db/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f9a65fa313877305d7f65579a108f3f4/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/2ecd6ad06bfe93b1cd15c9b90903542e/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/7bcdabbc0c24affff83f21f162bdb971/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f36e2087b3fa1f6797aa2b0a29bb5fa8/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a8ba84dca13e9dbff20dd6fc53e9a7fb/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/fb6b6dd3bdd372e4ac7ad949c77aa064/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ba65c2036704ee5edceafbfa4b70c7cd/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9c914ccefacd3cb393f6b22e25b8d6ff/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28fa87b7e05e6fb4659ec18ecb3ed278/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ae0e608e99e5c62ba03aa7077e5dd8c7/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/09d689562a89206ff24def02f8ad84c8/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/5b5f423adf145efed646b9ef61df8781/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4c92049e506f28bfc7f87d42e5abece6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/855bd1e8356a036016b26b9028d775a4/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4dfa583cfbc5dcc9b7454d978ac709e7/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/236d8805675f0068363537208a00bdc0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9810416112012e90c2c2a655471b70e1/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28f05ca5322e46f9e16e2978c3bce049/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/1671b28dfca3a6ee19d2b7a3326b204a/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a7a0b38b14bb4989812676dcf256d453/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/94cb645827b0b055764892b8eaef6cd9/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/94cb645827b0b055764892b8eaef6cd9/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/e3d4023ec0148c0ada961f591f0c8aeb/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/e3d4023ec0148c0ada961f591f0c8aeb/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/5b5f423adf145efed646b9ef61df8781/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/5b5f423adf145efed646b9ef61df8781/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:11:9-52
+activity#com.example.jetpackexample.MainActivity
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/bc3d117cfb57b06b59e57520ef851785/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/bc3d117cfb57b06b59e57520ef851785/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lifecycle] /Users/hefeng959/git2/JetpackExample/lifecycle/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lifecycle] /Users/hefeng959/git2/JetpackExample/lifecycle/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/94cb645827b0b055764892b8eaef6cd9/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/94cb645827b0b055764892b8eaef6cd9/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/e3d4023ec0148c0ada961f591f0c8aeb/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/e3d4023ec0148c0ada961f591f0c8aeb/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/3adff72175aa8aa49a0aaf04a08e9c1a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/3adff72175aa8aa49a0aaf04a08e9c1a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a005267a73562a210dc4de035a8ebfe6/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a005267a73562a210dc4de035a8ebfe6/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a71c3d269894c2d72471ee384ec9b216/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a71c3d269894c2d72471ee384ec9b216/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/d13da0d6680951854c92b5b713942730/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/d13da0d6680951854c92b5b713942730/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ffc81f48a11af6737f607ddd9af4b3db/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ffc81f48a11af6737f607ddd9af4b3db/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f9a65fa313877305d7f65579a108f3f4/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f9a65fa313877305d7f65579a108f3f4/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/2ecd6ad06bfe93b1cd15c9b90903542e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/2ecd6ad06bfe93b1cd15c9b90903542e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/7bcdabbc0c24affff83f21f162bdb971/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/7bcdabbc0c24affff83f21f162bdb971/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f36e2087b3fa1f6797aa2b0a29bb5fa8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/f36e2087b3fa1f6797aa2b0a29bb5fa8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a8ba84dca13e9dbff20dd6fc53e9a7fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a8ba84dca13e9dbff20dd6fc53e9a7fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/fb6b6dd3bdd372e4ac7ad949c77aa064/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/fb6b6dd3bdd372e4ac7ad949c77aa064/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ba65c2036704ee5edceafbfa4b70c7cd/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ba65c2036704ee5edceafbfa4b70c7cd/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9c914ccefacd3cb393f6b22e25b8d6ff/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9c914ccefacd3cb393f6b22e25b8d6ff/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28fa87b7e05e6fb4659ec18ecb3ed278/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28fa87b7e05e6fb4659ec18ecb3ed278/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/52762132e582326303d75dec747d7c6e/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ae0e608e99e5c62ba03aa7077e5dd8c7/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/ae0e608e99e5c62ba03aa7077e5dd8c7/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/09d689562a89206ff24def02f8ad84c8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/09d689562a89206ff24def02f8ad84c8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/5b5f423adf145efed646b9ef61df8781/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/5b5f423adf145efed646b9ef61df8781/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4c92049e506f28bfc7f87d42e5abece6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4c92049e506f28bfc7f87d42e5abece6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/855bd1e8356a036016b26b9028d775a4/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/855bd1e8356a036016b26b9028d775a4/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4dfa583cfbc5dcc9b7454d978ac709e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/4dfa583cfbc5dcc9b7454d978ac709e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/236d8805675f0068363537208a00bdc0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/236d8805675f0068363537208a00bdc0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9810416112012e90c2c2a655471b70e1/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/9810416112012e90c2c2a655471b70e1/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28f05ca5322e46f9e16e2978c3bce049/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/28f05ca5322e46f9e16e2978c3bce049/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/1671b28dfca3a6ee19d2b7a3326b204a/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/1671b28dfca3a6ee19d2b7a3326b204a/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a7a0b38b14bb4989812676dcf256d453/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hefeng959/.gradle/caches/transforms-2/files-2.1/a7a0b38b14bb4989812676dcf256d453/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefeng959/git2/JetpackExample/app/src/main/AndroidManifest.xml
+activity#com.example.livedata.LiveDataActivity2
+ADDED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-75
+	android:name
+		ADDED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-72
+activity#com.example.livedata.LiveDataActivity
+ADDED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-74
+	android:name
+		ADDED from [:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-71

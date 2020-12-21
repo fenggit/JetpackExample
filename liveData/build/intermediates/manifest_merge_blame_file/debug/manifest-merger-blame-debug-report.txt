@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.livedata"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml
+10
+11    <application>
+11-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml:5:5-8:19
+12        <activity android:name="com.example.livedata.LiveDataActivity2" />
+12-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml:6:9-64
+12-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml:6:19-52
+13        <activity android:name="com.example.livedata.LiveDataActivity" />
+13-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml:7:9-54
+13-->/Users/hefeng959/git2/JetpackExample/liveData/src/main/AndroidManifest.xml:7:19-51
+14    </application>
+15
+16</manifest>

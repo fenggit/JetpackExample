@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+id button
+id button1
+id button2
+id textView
+id textView2
+layout activity_live_data
+layout activity_live_data2
