@@ -1,0 +1,4 @@
+include ':liveData'
+include ':lifecycle'
+include ':app'
+rootProject.name = "JetpackExample"
