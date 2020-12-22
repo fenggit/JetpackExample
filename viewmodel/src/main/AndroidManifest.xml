@@ -3,7 +3,10 @@
     package="com.example.viewmodel">
 
     <application>
-        <activity android:name=".ViewModelActivity"></activity>
+        <activity android:name="com.example.all.AllViewModelActivity" />
+        <activity android:name="com.example.ss.SaveViewModelActivity" />
+        <activity android:name="com.example.vm.SimpleViewModelActivity" />
+        <activity android:name=".ViewModelActivity" />
     </application>
 
 </manifest>

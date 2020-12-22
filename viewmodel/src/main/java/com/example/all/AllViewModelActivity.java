@@ -1,16 +1,23 @@
-package com.example.viewmodel;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
+package com.example.all;
 
 import android.os.Bundle;
-import android.util.Log;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.SavedStateViewModelFactory;
+import androidx.lifecycle.ViewModelProvider;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ViewModelActivity extends AppCompatActivity {
+import com.example.viewmodel.R;
+
+public class AllViewModelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +27,11 @@ public class ViewModelActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.textView);
         Button btn = findViewById(R.id.button);
 
-
-        MyViewModel viewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(MyViewModel.class);
-
-        viewModel.number.observe(this, new Observer<Integer>() {
+        // TODO :测试横竖屏和开发者模式-不保留活动信息
+        MyViewModel myViewModel = new ViewModelProvider(this, new SavedStateViewModelFactory(getApplication(), this)).get(MyViewModel.class);
+        myViewModel.getAge().observe(this, new Observer<Integer>() {
             @Override
             public void onChanged(Integer integer) {
-                Log.e("hefeng",">>>> "+integer);
                 tv.setText("" + integer);
             }
         });
@@ -34,10 +39,8 @@ public class ViewModelActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewModel.add();
+                myViewModel.setAge(myViewModel.getAge().getValue() + 1);
             }
         });
-
-        // 开发者模式 - 后台不保留数据
     }
 }
