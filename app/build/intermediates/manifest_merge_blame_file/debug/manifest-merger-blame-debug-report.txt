@@ -48,6 +48,9 @@
 29        <activity android:name="com.example.livedata.LiveDataActivity" />
 29-->[:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-74
 29-->[:liveData] /Users/hefeng959/git2/JetpackExample/liveData/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-71
-30    </application>
-31
-32</manifest>
+30        <activity android:name="com.example.viewmodel.ViewModelActivity" />
+30-->[:viewmodel] /Users/hefeng959/git2/JetpackExample/viewmodel/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-76
+30-->[:viewmodel] /Users/hefeng959/git2/JetpackExample/viewmodel/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-73
+31    </application>
+32
+33</manifest>

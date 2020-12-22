@@ -1671,6 +1671,7 @@ id button
 id button1
 id button2
 id button3
+id button4
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2020,6 +2021,7 @@ layout abc_tooltip
 layout activity_live_data
 layout activity_live_data2
 layout activity_main
+layout activity_view_model
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
