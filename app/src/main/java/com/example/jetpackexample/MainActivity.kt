@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.all.AllViewModelActivity
+import com.example.lifecycle.LifeCycleActivity
 import com.example.livedata.LiveDataActivity
 import com.example.ss.SaveViewModelActivity
 import com.example.viewmodel.ViewModelActivity
@@ -17,6 +18,10 @@ class MainActivity : AppCompatActivity() {
 
         button2.setOnClickListener {
             startActivity(Intent(this, LiveDataActivity::class.java))
+        }
+
+        button3.setOnClickListener {
+            startActivity(Intent(this, LifeCycleActivity::class.java))
         }
 
         button4.setOnClickListener {
