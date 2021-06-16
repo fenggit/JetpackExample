@@ -3,10 +3,12 @@
     package="com.example.viewmodel">
 
     <application>
+        <activity android:name="com.example.app.RotateScreenActivity"></activity>
         <activity android:name="com.example.all.AllViewModelActivity" />
         <activity android:name="com.example.ss.SaveViewModelActivity" />
         <activity android:name="com.example.vm.SimpleViewModelActivity" />
         <activity android:name=".ViewModelActivity" />
+        <activity android:name="com.example.app.RotateScreenActivity2" />
     </application>
 
 </manifest>
