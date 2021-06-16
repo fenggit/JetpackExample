@@ -6,9 +6,6 @@ import android.os.Bundle
 import com.example.all.AllViewModelActivity
 import com.example.lifecycle.LifeCycleActivity
 import com.example.livedata.LiveDataActivity
-import com.example.ss.SaveViewModelActivity
-import com.example.viewmodel.ViewModelActivity
-import com.example.vm.SimpleViewModelActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

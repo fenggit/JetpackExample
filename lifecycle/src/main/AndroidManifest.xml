@@ -2,8 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lifecycle">
 
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="22" />
     <application>
-        <activity android:name=".LifeCycleActivity"></activity>
+        <activity android:name=".app.timer.UserUseTimeActivity"></activity>
+        <activity android:name=".app.timer.UserUseTimeActivity2"></activity>
+
+        <activity android:name=".LifeCycleActivity" />
+
+        <service android:name=".app.gps.GPSService" />
     </application>
 
 </manifest>

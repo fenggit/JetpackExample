@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel;
 
 // VM层，存放各种数据
 public class MyViewModel extends ViewModel {
-    private SavedStateHandle savedStateHandle;
+    private final SavedStateHandle savedStateHandle;
     public static final String AGE_KEY = "com.example.ss.AGE_KEY";
 
     public MyViewModel(SavedStateHandle savedStateHandle) {
