@@ -3,7 +3,8 @@
     package="com.example.livedata">
 
     <application>
-        <activity android:name=".LiveDataActivity2"></activity>
+        <activity android:name=".app.LiveDataPageActivity"></activity>
+        <activity android:name=".LiveDataActivity2" />
         <activity android:name=".LiveDataActivity" />
     </application>
 

@@ -16,5 +16,4 @@ public class MyViewModel extends ViewModel {
             _number.setValue(_number.getValue() + 1);
         }
     }
-
 }

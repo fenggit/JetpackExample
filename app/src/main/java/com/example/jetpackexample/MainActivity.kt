@@ -8,6 +8,7 @@ import com.example.app.RotateScreenActivity
 import com.example.app.RotateScreenActivity2
 import com.example.lifecycle.LifeCycleActivity
 import com.example.livedata.LiveDataActivity
+import com.example.livedata.app.LiveDataPageActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button2.setOnClickListener {
-            startActivity(Intent(this, LiveDataActivity::class.java))
+            //startActivity(Intent(this, LiveDataActivity::class.java))
+            startActivity(Intent(this, LiveDataPageActivity::class.java))
         }
 
         button3.setOnClickListener {
