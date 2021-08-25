@@ -2,6 +2,8 @@ package com.example.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.SavedStateViewModelFactory
 import androidx.lifecycle.ViewModelProvider
 import com.example.viewmodel.databinding.ActivityRotateScreenBinding
 
