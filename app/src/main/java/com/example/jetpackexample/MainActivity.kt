@@ -3,13 +3,18 @@ package com.example.jetpackexample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.provider.Settings
 import com.example.all.AllViewModelActivity
 import com.example.app.RotateScreenActivity
 import com.example.app.RotateScreenActivity2
 import com.example.lifecycle.LifeCycleActivity
 import com.example.livedata.LiveDataActivity
 import com.example.livedata.app.LiveDataPageActivity
+import com.pahx.lc.ktxframework.RequestMainActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,5 +38,23 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, RotateScreenActivity::class.java))
             //startActivity(Intent(this, RotateScreenActivity2::class.java))
         }
+        button5.setOnClickListener {
+            startActivity(Intent(this, RequestMainActivity::class.java))
+//            for (i in 0..10) {
+//                test()
+//            }
+        }
+    }
+
+
+    // 答案：acb
+    fun test() {
+        println("a")
+        val handler = Handler(Looper.getMainLooper())
+        handler.post {
+            println("b")
+        }
+        //Thread.sleep(200)
+        println("c")
     }
 }
