@@ -26,10 +26,8 @@ class RequestMainActivity : AppCompatActivity() {
         binding = ActivityRequestMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val viewModel = ViewModelProvider(
-            this,
-            ViewModelProvider.NewInstanceFactory()
-        ).get(HomeViewModel::class.java)
+        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(HomeViewModel::class.java)
+
         viewModel.homeData.observe(this, object : Observer<BaseRes<HomeResInfo>> {
             override fun onChanged(info: BaseRes<HomeResInfo>?) {
                 binding.textView.text = "curPage:" + info?.data?.curPage
