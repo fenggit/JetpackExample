@@ -27,10 +27,10 @@ class HomeViewModel : ViewModel() {
             homeData.value = HomeRepository().requestHome(pageId)
         }
 
-        viewModelScope.safeLaunch {
-            // 左边代码：主线程 ； 右边代码：「挂起执行异步线程，Retrofit已经处理」「执行完成后，恢复到主线程」
-            homeData.value = HomeRepository().requestHome(pageId)
-        }
+//        viewModelScope.safeLaunch {
+//            // 左边代码：主线程 ； 右边代码：「挂起执行异步线程，Retrofit已经处理」「执行完成后，恢复到主线程」
+//            homeData.value = HomeRepository().requestHome(pageId)
+//        }
     }
 
     fun CoroutineScope.safeLaunch(launchBody: suspend () -> Unit): Job {
