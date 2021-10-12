@@ -12,6 +12,7 @@
         <activity android:name=".LifeCycleActivity" />
 
         <service android:name=".app.gps.GPSService" />
+        <service android:name=".app.lifecycle.MyService" />
     </application>
 
 </manifest>

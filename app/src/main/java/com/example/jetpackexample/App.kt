@@ -11,5 +11,6 @@ class App : Application() {
 
         // 需要依赖：implementation 'androidx.lifecycle:lifecycle-process:2.3.1'
         ProcessLifecycleOwner.get().lifecycle.addObserver(ApplicationLifecycle())
+
     }
 }
