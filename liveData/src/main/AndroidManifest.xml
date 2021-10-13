@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.livedata">
+    package="com.example.livedata" >
 
     <application>
-        <activity android:name=".app.LiveDataPageActivity"></activity>
+        <activity
+            android:name=".LiveDataMutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LiveDataMutiActivity"
+            android:exported="true" />
+        <activity android:name=".app.LiveDataPageActivity" />
         <activity android:name=".LiveDataActivity2" />
         <activity android:name=".LiveDataActivity" />
     </application>
