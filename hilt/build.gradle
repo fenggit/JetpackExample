@@ -1,18 +1,16 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
 }
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.example.hilt"
-        minSdkVersion 21
-        targetSdkVersion 31
+        minSdkVersion 16
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -28,11 +26,18 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.google.dagger:dagger-android:2.35.1'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.35.1'
+
+    //hilt support begin
+//    implementation "com.google.dagger:hilt-android:2.35.1"
+//    kapt "com.google.dagger:hilt-android-compiler:2.35.1"
+    //hilt support end
+}
+repositories {
+    mavenCentral()
 }
