@@ -1,6 +1,6 @@
 package com.example.hilt.dagger;
 
-import com.example.hilt.MainActivity;
+import com.example.hilt.HiltActivity;
 
 import dagger.Component;
 
@@ -10,5 +10,5 @@ import dagger.Component;
 @Component
 public interface ApplicationComponent {
 
-    void inject(MainActivity activity);
+    void inject(HiltActivity activity);
 }
