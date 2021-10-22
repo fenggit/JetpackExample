@@ -6,6 +6,6 @@ import dagger.hilt.android.HiltAndroidApp
 /**
  * 应用级依赖项容器
  */
-@HiltAndroidApp
+//@HiltAndroidApp
 class HiltApplication : Application() {
 }

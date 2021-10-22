@@ -11,10 +11,12 @@ import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
 
-@AndroidEntryPoint
+//  Expected @AndroidEntryPoint to have a value. Did you forget to apply the Gradle Plugin?
+//        [Hilt] Processing did not complete. See error above for details.
+//@AndroidEntryPoint
 public class HiltActivity extends AppCompatActivity {
 
-    @Inject
+//    @Inject
     UserInfo userInfo;
 
     @Override
