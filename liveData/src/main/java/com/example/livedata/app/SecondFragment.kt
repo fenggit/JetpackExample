@@ -26,13 +26,13 @@ class SecondFragment : Fragment() {
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
 
         val model = ViewModelProvider(
-            activity!!,
-            ViewModelProvider.AndroidViewModelFactory(activity!!.application)
+            requireActivity(),
+            ViewModelProvider.AndroidViewModelFactory(requireActivity().application)
         ).get(ProgressViewModel::class.java)
 
 
         // 数据变化监听
-        model.getProgressData().observe(activity!!, Observer { progress ->
+        model.getProgressData().observe(requireActivity(), Observer { progress ->
             binding.seekBar.progress = progress
         })
 

@@ -4,3 +4,4 @@ include ':lifecycle'
 include ':app'
 rootProject.name = "JetpackExample"
 include ':ktxFramework'
+include ':hilt'

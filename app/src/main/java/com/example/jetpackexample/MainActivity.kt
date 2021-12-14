@@ -9,8 +9,10 @@ import android.provider.Settings
 import com.example.all.AllViewModelActivity
 import com.example.app.RotateScreenActivity
 import com.example.app.RotateScreenActivity2
+import com.example.hilt.HiltActivity
 import com.example.lifecycle.LifeCycleActivity
 import com.example.livedata.LiveDataActivity
+import com.example.livedata.LiveDataMutActivity
 import com.example.livedata.app.LiveDataPageActivity
 import com.pahx.lc.ktxframework.RequestMainActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -23,7 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         button2.setOnClickListener {
             //startActivity(Intent(this, LiveDataActivity::class.java))
-            startActivity(Intent(this, LiveDataPageActivity::class.java))
+            startActivity(Intent(this, LiveDataMutActivity::class.java))
+            //startActivity(Intent(this, LiveDataPageActivity::class.java))
         }
 
         button3.setOnClickListener {
@@ -43,6 +46,10 @@ class MainActivity : AppCompatActivity() {
 //            for (i in 0..10) {
 //                test()
 //            }
+        }
+
+        button7.setOnClickListener {
+            startActivity(Intent(this, HiltActivity::class.java))
         }
     }
 
