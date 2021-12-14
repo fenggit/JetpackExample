@@ -12,7 +12,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
 public class LiveDataActivity extends AppCompatActivity {
-    private MutableLiveData<String> liveData; // Handler
+    private MutableLiveData<String> liveData = new MutableLiveData<>(); // Handler
     //private MutableLiveData<Message> liveData; // Handler
 
     // Handler 会持有生命周期
@@ -25,7 +25,6 @@ public class LiveDataActivity extends AppCompatActivity {
         setContentView(R.layout.activity_live_data);
         setListener();
 
-        liveData = new MutableLiveData<>();
         liveData.observe(this, new Observer<String>() {
             @Override
             public void onChanged(String s) {
